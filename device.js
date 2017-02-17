@@ -3,7 +3,7 @@ var DEVICE = "10.0.0.22"//process.env.DEVICE_IP;
 var ID =  "1"//process.env.DEVICE_ID
 var PORT = "1025"//process.env.DEVICE_PORT;
 var DRIVER =  "projectiondesign"// process.env.DRIVER_NAME
-var MQTT_HOST = "mqtt://10.0.0.57:1883"//process.env.MQTT_BROKER;
+var MQTT_HOST = "mqtt://10.0.0.61:1883"//process.env.MQTT_BROKER;
 var MQTT_BROKER_USER = ""//process.env.MQTT_BROKER_USER;
 var MQTT_BROKER_PASS = ""//process.env.MQTT_BROKER_PASS;
 
@@ -41,7 +41,7 @@ var display = new DISPLAY.Displayclass(DEVICE,PORT,Commands, function(client) {
     mqtt_client.on('message', function (topic, message) {
         console.log('MQTT:'+topic+':'+message.toString());
         if(topic == 'room/display/'+ID+'/power'){
-            
+
             if(message.toString() == 'on'){
                 client.exec(Commands.CMD_ON)
             }
@@ -62,4 +62,7 @@ var display = new DISPLAY.Displayclass(DEVICE,PORT,Commands, function(client) {
             }
         }
     });
+  setInterval(function() {
+    mqtt_client.publish("room/display/1/status", client.statusD.Power.toLowerCase());
+  },6000)
 });
