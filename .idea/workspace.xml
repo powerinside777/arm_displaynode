@@ -23,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -43,18 +43,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#605#780#0" expanded="false" />
-                <element signature="e#825#1071#0" expanded="false" />
-                <element signature="e#1113#1119#0" expanded="false" />
-                <element signature="e#5422#5485#0" expanded="false" />
-                <element signature="e#5552#6383#0" expanded="false" />
-                <element signature="e#6449#6588#0" expanded="false" />
+                <element signature="e#601#776#0" expanded="false" />
+                <element signature="e#821#1067#0" expanded="false" />
+                <element signature="e#1109#1115#0" expanded="false" />
+                <element signature="e#5418#5481#0" expanded="false" />
+                <element signature="e#5548#6379#0" expanded="false" />
+                <element signature="e#6445#6584#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -66,8 +66,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Dockerfile" />
-        <option value="$PROJECT_DIR$/lib/index.js" />
         <option value="$PROJECT_DIR$/device.js" />
+        <option value="$PROJECT_DIR$/lib/index.js" />
       </list>
     </option>
   </component>
@@ -235,12 +235,12 @@
       <updated>1486800956580</updated>
       <workItem from="1486800958028" duration="908000" />
       <workItem from="1487032590281" duration="4167000" />
-      <workItem from="1487246581295" duration="3741000" />
+      <workItem from="1487246581295" duration="4104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8816000" />
+    <option name="totallyTimeSpent" value="9179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -339,26 +339,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="e#605#780#0" expanded="false" />
-            <element signature="e#825#1071#0" expanded="false" />
-            <element signature="e#1113#1119#0" expanded="false" />
-            <element signature="e#5422#5485#0" expanded="false" />
-            <element signature="e#5552#6383#0" expanded="false" />
-            <element signature="e#6449#6588#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#601#776#0" expanded="false" />
+            <element signature="e#821#1067#0" expanded="false" />
+            <element signature="e#1109#1115#0" expanded="false" />
+            <element signature="e#5418#5481#0" expanded="false" />
+            <element signature="e#5548#6379#0" expanded="false" />
+            <element signature="e#6445#6584#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
